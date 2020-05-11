@@ -3,4 +3,7 @@
   <parameter name="AutocompletePlacesDemoContext-Web.config Connection String" description="AutocompletePlacesDemoContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=AutocompletePlacesDemoContext-20200511104612; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|AutocompletePlacesDemoContext-20200511104612.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Tina\\source\\repos\\AutocompletePlacesDemo\\AutocompletePlacesDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AutocompletePlacesDemoContext']/@connectionString" />
   </parameter>
+  <parameter name="AutocompletePlacesDemoContext_DatabasePublish-Web.config Connection String" description="AutocompletePlacesDemoContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="AutocompletePlacesDemoContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Tina\\source\\repos\\AutocompletePlacesDemo\\AutocompletePlacesDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AutocompletePlacesDemoContext_DatabasePublish']/@connectionString" />
+  </parameter>
 </parameters>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AutocompletePlacesDemoContext-Web.config Connection String" description="AutocompletePlacesDemoContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=AutocompletePlacesDemoContext-20200511104612; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|AutocompletePlacesDemoContext-20200511104612.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Tina\\source\\repos\\AutocompletePlacesDemo\\AutocompletePlacesDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AutocompletePlacesDemoContext']/@connectionString" />
+  </parameter>
+</parameters>

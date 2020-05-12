@@ -18,9 +18,9 @@ namespace AddressAutocomplete.Models
        // [JsonProperty("street_number")]
         [StringLength(10, MinimumLength = 2)]
         [Display(Name = "Street Number")]
-        public string StreetNumber { get; set; } //This is a string to accomodate street numbers such as 102C
+        public string StreetNumber { get; set; } //This is a string in order to to accomodate street numbers such as 102C
 
-        [StringLength(20, MinimumLength = 3)]
+        [StringLength(30, MinimumLength = 3)]
         [Display(Name = "Street Name")]
         public string StreetName { get; set; }
 
@@ -32,9 +32,8 @@ namespace AddressAutocomplete.Models
         [Display(Name = "Zip Code")]
         public string ZipCode { get; set; } //this is a string to accomodate zipcodes with a dash (e.g. 27613-2234)
 
-
         [StringLength(10, MinimumLength = 2)]
-        public string State { get; set; } //If I have time make this a drop-down
+        public string State { get; set; } //TO DO: if I have time, make this a drop-down
 
         [StringLength(20, MinimumLength = 4)]
         [Display(Name = "Country")]

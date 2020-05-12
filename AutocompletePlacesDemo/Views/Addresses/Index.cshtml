@@ -4,16 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Your saved addresses</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.IsBillingAddress)
-        </th>
         <th>
             @Html.DisplayNameFor(model => model.StreetNumber)
         </th>
@@ -37,9 +34,6 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.IsBillingAddress)
-        </td>
         <td>
             @Html.DisplayFor(modelItem => item.StreetNumber)
         </td>

@@ -150,6 +150,10 @@
     <Compile Include="Migrations\202005111732199_Second.designer.cs">
       <DependentUpon>202005111732199_Second.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005121909205_updateValidation.cs" />
+    <Compile Include="Migrations\202005121909205_updateValidation.designer.cs">
+      <DependentUpon>202005121909205_updateValidation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -220,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005111732199_Second.resx">
       <DependentUpon>202005111732199_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005121909205_updateValidation.resx">
+      <DependentUpon>202005121909205_updateValidation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

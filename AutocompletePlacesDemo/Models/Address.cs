@@ -15,6 +15,7 @@ namespace AddressAutocomplete.Models
 
         public bool IsBillingAddress { get; set; } //true if billing address, false if shipping address
 
+       // [JsonProperty("street_number")]
         [StringLength(10, MinimumLength = 2)]
         [Display(Name = "Street Number")]
         public string StreetNumber { get; set; } //This is a string to accomodate street numbers such as 102C
